@@ -3,22 +3,13 @@
     {
       "id": "jupyter",
       "name": "Jupyter Notebook",
-      "description": "Interactive coding environment with Python",
+      "description": "GPU-accelerated coding environment",
       "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/jupyter.svg",
       "color": "#F37626",
-      "launchCommand": "jupyter notebook --no-browser --port=8888 --ip=127.0.0.1 --NotebookApp.token='' --NotebookApp.password=''",
-      "url": "http://localhost:8888",
-      "port": 8888
-    },
-    {
-      "id": "test",
-      "name": "Test Web Server",
-      "description": "Simple Python HTTP server for testing",
-      "icon": "https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg",
-      "color": "#3776AB",
-      "launchCommand": "python3 -m http.server 9999",
-      "url": "http://localhost:9999",
-      "port": 9999
+      "launchCommand": "jupyter notebook --no-browser --port=8889 --ip=0.0.0.0 --NotebookApp.token='' --NotebookApp.password='' --NotebookApp.base_url=/jupyter",
+      "url": "http://192.168.23.117:8889/jupyter/tree",
+      "port": 8889,
+      "requiresGPU": true
     }
   ]
 }

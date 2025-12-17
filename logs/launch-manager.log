@@ -1,0 +1,6 @@
+[2025-12-09T12:57:22.533Z] [INFO] Starting application: VS Code Server (vscode)
+[2025-12-09T12:57:22.633Z] [INFO] Starting generic app: VS Code Server
+[2025-12-09T12:57:23.732Z] [ERROR] Failed to start vscode: Process vscode failed to start
+[2025-12-09T12:57:31.579Z] [INFO] Starting application: VS Code Server (vscode)
+[2025-12-09T12:57:31.685Z] [INFO] Starting generic app: VS Code Server
+[2025-12-09T12:57:32.792Z] [ERROR] Failed to start vscode: Process vscode failed to start

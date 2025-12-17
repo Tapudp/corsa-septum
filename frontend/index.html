@@ -108,14 +108,42 @@
             margin-top: 20px;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
+
+        .title-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 1rem;
+            font-family: math;
+        }
+
+        .title-instruction {
+            color: rgb(180, 55, 49);
+            font-family: math;
+            font-size: 19px;
+        }
+
+        .footer-style {
+            margin-top: 2rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
     </style>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>🚀 Application Dashboard</h1>
-            <p>Click any app to launch and open in new tab</p>
+            <div class="title-container">
+                <img src="./KU_NAAC-A-Logo-01.webp" alt="karnvati-university-logo" height="100" width="300" />
+                <h3>
+                    A comprehensive AI/ML functional environment for deep learning, computer vision, natural language
+                    processing, and robotics simulation.
+                </h3>
+            </div>
+            <p class="title-instruction">Click any app to launch and open in new tab</p>
         </header>
 
         <div class="apps-grid" id="appsGrid">
@@ -129,6 +157,11 @@
     </div>
 
     <script src="dashboard.js"></script>
+    <footer>
+        <div class="footer-style">
+            ©️ 2025 Karnavati University
+        </div>
+    </footer>
 </body>
 
 </html>
